@@ -70,10 +70,11 @@ button {
 .auth-nav-list,
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 .auth-nav-list {
-  margin: auto;
+  margin-left: auto;
 }
 
 .site-nav-list .item + .item,
@@ -376,8 +377,4 @@ h3 {
 
 .logo .studio {
   color: var(--white-text-color);
-}
-
-.container-footer {
-  margin-left: 215px;
 }
